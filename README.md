@@ -4,11 +4,10 @@ This project consists of a Python script designed to scrape, parse, and extract 
 
 ## Requirements
 To run this script, you need the following:
-
-    * Python 3.X
-    - `requests` library
-    - `BeautifulSoup` library
-    - `csv` library (usually included in standard Python distribution)
+   - Python 3.X
+   - `requests` library
+   - `BeautifulSoup` library
+   - `csv` library (usually included in standard Python distribution)
 
 You can install the required libraries (except `csv`) using pip:
 `pip install requests beautifulsoup4`
@@ -55,5 +54,5 @@ It then parses the HTML response to extract the needed data.
 This script is for educational purposes only. Always ensure compliance with Yahoo Finance's terms of service when scraping their website. Additionally, this script may need updates if Yahoo Finance changes its webpage structure or URL patterns.
 
 **Unofficial APIs and Libraries:**
-- `yfinance`: A widely used open-source Python library that makes it easy to access Yahoo Finance data. Installation is straightforward using pip: `pip install    - yfinance --upgrade --no-cache-dir`. This library allows users to fetch a wide range of data including historical prices, dividends, and financial statements.
-- `Yahoo_fin`: Another open-source Python library similar to yfinance. It can be installed via pip and offers functionalities like fetching stock price data, financial statements, and stock option data.
+   - `yfinance`: A widely used open-source Python library that makes it easy to access Yahoo Finance data. Installation is straightforward using pip: `pip install    - yfinance --upgrade --no-cache-dir`. This library allows users to fetch a wide range of data including historical prices, dividends, and financial statements.
+   - `Yahoo_fin`: Another open-source Python library similar to yfinance. It can be installed via pip and offers functionalities like fetching stock price data, financial statements, and stock option data.
