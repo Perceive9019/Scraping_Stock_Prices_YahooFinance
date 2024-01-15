@@ -5,7 +5,7 @@ This project consists of a Python script designed to scrape, parse, and extract 
 ## Requirements
 To run this script, you need the following:
 
-    - Python 3.X
+    * Python 3.X
     - `requests` library
     - `BeautifulSoup` library
     - `csv` library (usually included in standard Python distribution)
@@ -30,20 +30,20 @@ Finally, the script writes this data into a CSV file named stockdata.csv, creati
 
 1. **getData Function:**
 
-- This is the core function that takes a stock symbol as input and returns a dictionary with the stock's symbol, price, and change.
+    - This is the core function that takes a stock symbol as input and returns a dictionary with the stock's symbol, price, and change.
 
 2. **Data Scraping:**
 
-- The script sends an HTTP GET request to the Yahoo Finance page of the given stock symbol.
+    - The script sends an HTTP GET request to the Yahoo Finance page of the given stock symbol.
 It then parses the HTML response to extract the needed data.
 
 3. **Error Handling:**
 
-- Note: The current script does not include explicit error handling for network issues or HTML parsing. It's recommended to enhance the script with try-except blocks to handle potential exceptions.
+    - Note: The current script does not include explicit error handling for network issues or HTML parsing. It's recommended to enhance the script with try-except blocks to handle potential exceptions.
 
 4. **CSV Writing:**
 
-- The script uses Python's built-in csv library to write the scraped data into a CSV file.
+    - The script uses Python's built-in csv library to write the scraped data into a CSV file.
 
 ## Customization
 
